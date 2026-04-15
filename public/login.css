@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-left {
+  display: flex;
+  background: #3b9dc9;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left img {
+  width: 250px;
+}
+/* Right form panel */
+.login-right form {
+  width: 100%;
+  max-width: 300px;
+}
+
+.login-right label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.login-right input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.btn-login {
+  flex: 1;
+  background: #3b9dc9;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-signup {
+  flex: 1;
+  background: #fff;
+  color: #3b9dc9;
+  border: 1px solid #3b9dc9;
+  padding: 10px;
+  cursor: pointer;
+}
+.help-links{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.forgot{
+  color: #0077cc;
+  margin-right: 15px;
+}
+.trouble{
+  color: red;
+}
+
+.help-links a {
+  text-decoration: underline;
+  font-size: 14px;
+}
+.help-links a:hover {
+  opacity: 0.7;
+}
